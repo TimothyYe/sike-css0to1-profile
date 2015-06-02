@@ -8,9 +8,14 @@ body {
     color: #62686f;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: #333;
-  font-weight: 300;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #333;
+    font-weight: 300;
 }
 
 .container {
@@ -51,32 +56,88 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-nav {
-  background-color: #333;
+    background-color: #333;
 }
 
 .main-nav ul li {
-  margin: 15px 10px;
+    margin: 15px 10px;
 }
 
 .main-nav ul li a {
-  color: #fff;
-  font-size: 0.9rem;
-  font-weight: 300;
-  text-transform: uppercase;
-  text-decoration: none;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 .main-nav ul li a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 ul.nostyle {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
 
 ul.inline-items li {
-  display: inline-block;
+    display: inline-block;
+}
+
+.info-section {
+    background-color: #fff;
+    padding: 30px 60px;
+}
+
+.info-section header {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.info-section header h2 {
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.info-section__description {
+  font-style: italic;
+}
+
+.whatido__skill-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.whatido__skill{
+    float: left;
+    padding-top: 120px;
+}
+
+.whatido__skill--code {
+    background-image: url(../img/skill-code.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    width: 33%;
+    text-align: center;
+}
+
+.whatido__skill--design {
+    background-image: url(../img/skill-design.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    width: 33%;
+    text-align: center;
+}
+
+.whatido__skill--product {
+    background-image: url(../img/skill-product.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    width: 33%;
+    text-align: center;
 }
