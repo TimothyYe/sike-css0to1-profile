@@ -110,7 +110,6 @@ ul.inline-items li {
     list-style: none;
     padding: 0;
     margin: 0;
-    overflow: hidden;
 }
 
 .whatido__skill{
@@ -140,4 +139,10 @@ ul.inline-items li {
     background-repeat: no-repeat;
     width: 33%;
     text-align: center;
+}
+
+.clearfix:after {
+  content:"";
+  display:table;
+  clear:both;
 }
